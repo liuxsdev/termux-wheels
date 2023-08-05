@@ -1,4 +1,4 @@
-. upgrade.sh
+source "$(dirname "${BASH_SOURCE[0]}")/upgrade.sh"
 
 apt install python -yq
 apt install libzmq -yq
