@@ -1,5 +1,5 @@
-apt update
-DEBIAN_FRONTEND='noninteractive' apt-get -y -o Dpkg::Options::='--force-confdef' -o Dpkg::Options::='--force-confold' upgrade
+. upgrade.sh
+
 apt install python -yq
 apt install libzmq -yq
 pip wheel pyzmq
