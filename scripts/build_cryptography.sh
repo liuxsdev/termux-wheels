@@ -4,6 +4,6 @@
 source "$(dirname "${BASH_SOURCE[0]}")/upgrade.sh"
 
 apt install python -yq
-atp install rust binutils -yq
+apt install rust binutils -yq
 
 pip wheel cryptography -v --no-deps
